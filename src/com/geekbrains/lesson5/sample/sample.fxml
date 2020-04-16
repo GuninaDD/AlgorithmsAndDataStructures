@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.geekbrains.lesson5.sample.Controller">
+   <children>
+      <ChoiceBox id="team1_list" fx:id="team1_list" layoutX="33.0" layoutY="13.0" prefHeight="25.0" prefWidth="200.0" />
+      <ChoiceBox id="team2_list" fx:id="team2_list" layoutX="371.0" layoutY="13.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextArea id="result" layoutX="100.0" layoutY="255.0" prefHeight="130.0" prefWidth="471.0" />
+      <TextArea id="team1" layoutX="33.0" layoutY="43.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea id="team2" layoutX="371.0" layoutY="43.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button id="btn_repeat" layoutX="26.0" layoutY="333.0" mnemonicParsing="false" text="Repeat" />
+      <Button id="btn_go" layoutX="36.0" layoutY="276.0" mnemonicParsing="false" text="Go" />
+   </children>
+</Pane>
